@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satellite Building Counter</title>
+  <link rel="stylesheet" href="/frontend/styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">SAM segmentation pipeline</p>
+        <h1>Detect and count buildings from satellite imagery.</h1>
+        <p class="lede">
+          Upload an image, tune the area filters, and get segmented buildings with a total count.
+        </p>
+      </div>
+      <div class="stats">
+        <div>
+          <span class="label">Count</span>
+          <strong id="buildingCount">0</strong>
+        </div>
+        <div>
+          <span class="label">Time</span>
+          <strong id="processingTime">0 ms</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls card">
+      <div class="upload-zone" id="dropZone">
+        <input type="file" id="imageInput" accept="image/*" />
+        <p>Drag and drop a satellite image here, or click to browse.</p>
+      </div>
+
+      <div class="slider-group">
+        <label for="minArea">Minimum area</label>
+        <input type="range" id="minArea" min="50" max="5000" value="300" step="10" />
+        <div class="slider-meta"><span>50</span><span id="minAreaValue">300</span><span>5000</span></div>
+      </div>
+
+      <div class="slider-group">
+        <label for="maxArea">Maximum area</label>
+        <input type="range" id="maxArea" min="5000" max="500000" value="200000" step="1000" />
+        <div class="slider-meta"><span>5000</span><span id="maxAreaValue">200000</span><span>500000</span></div>
+      </div>
+
+      <div class="actions">
+        <button id="processBtn">Process image</button>
+        <a id="downloadLink" class="secondary" href="#" download>Download annotated image</a>
+      </div>
+
+      <p class="status" id="status">Waiting for an image upload.</p>
+    </section>
+
+    <section class="gallery">
+      <article class="card preview">
+        <h2>Original</h2>
+        <img id="originalPreview" alt="Original upload preview" />
+      </article>
+      <article class="card preview">
+        <h2>Annotated output</h2>
+        <img id="annotatedPreview" alt="Annotated segmentation output" />
+      </article>
+      <article class="card preview">
+        <h2>Mask preview</h2>
+        <img id="maskPreview" alt="Binary building mask" />
+      </article>
+    </section>
+  </main>
+
+  <script src="/frontend/app.js"></script>
+</body>
+</html>

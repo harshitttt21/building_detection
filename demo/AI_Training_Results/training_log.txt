@@ -1,0 +1,59 @@
+[2026-04-19 09:00:00] INFO  Starting synthetic training run
+[2026-04-19 09:00:03] INFO  Model: SAM vit_b
+[2026-04-19 09:00:04] INFO  Dataset size: 6000 images
+[2026-04-19 09:00:05] INFO  Epochs: 50
+[2026-04-19 09:00:06] INFO  Batch size: 4
+[2026-04-19 09:00:07] INFO  Image size: 1024
+[2026-04-19 09:00:08] INFO  Optimizer: AdamW
+[2026-04-19 09:00:09] INFO  Beginning training loop
+[2026-04-19 09:12:24] INFO  Epoch 01/50 - loss: 0.8421 - val_loss: 0.9104 - acc: 0.611 - precision: 0.603 - recall: 0.588 - mIoU: 0.421 - gpu_temp: 66.2C
+[2026-04-19 09:18:31] INFO  Epoch 02/50 - loss: 0.7945 - val_loss: 0.8617 - acc: 0.632 - precision: 0.621 - recall: 0.610 - mIoU: 0.438 - gpu_temp: 66.8C
+[2026-04-19 09:24:38] INFO  Epoch 03/50 - loss: 0.7532 - val_loss: 0.8206 - acc: 0.648 - precision: 0.637 - recall: 0.624 - mIoU: 0.451 - gpu_temp: 67.1C
+[2026-04-19 09:30:44] INFO  Epoch 04/50 - loss: 0.7118 - val_loss: 0.7783 - acc: 0.669 - precision: 0.659 - recall: 0.645 - mIoU: 0.472 - gpu_temp: 67.4C
+[2026-04-19 09:36:52] INFO  Epoch 05/50 - loss: 0.6739 - val_loss: 0.7391 - acc: 0.688 - precision: 0.678 - recall: 0.663 - mIoU: 0.489 - gpu_temp: 67.8C
+[2026-04-19 09:42:59] INFO  Epoch 06/50 - loss: 0.6385 - val_loss: 0.7014 - acc: 0.707 - precision: 0.696 - recall: 0.681 - mIoU: 0.507 - gpu_temp: 68.3C
+[2026-04-19 09:49:06] INFO  Epoch 07/50 - loss: 0.6031 - val_loss: 0.6649 - acc: 0.724 - precision: 0.713 - recall: 0.699 - mIoU: 0.523 - gpu_temp: 68.6C
+[2026-04-19 09:55:13] INFO  Epoch 08/50 - loss: 0.5694 - val_loss: 0.6297 - acc: 0.739 - precision: 0.728 - recall: 0.713 - mIoU: 0.541 - gpu_temp: 69.0C
+[2026-04-19 10:01:20] INFO  Epoch 09/50 - loss: 0.5367 - val_loss: 0.5953 - acc: 0.754 - precision: 0.743 - recall: 0.728 - mIoU: 0.558 - gpu_temp: 69.3C
+[2026-04-19 10:07:28] INFO  Epoch 10/50 - loss: 0.5054 - val_loss: 0.5628 - acc: 0.768 - precision: 0.757 - recall: 0.743 - mIoU: 0.575 - gpu_temp: 69.5C
+[2026-04-19 10:13:35] INFO  Epoch 11/50 - loss: 0.4771 - val_loss: 0.5332 - acc: 0.781 - precision: 0.770 - recall: 0.756 - mIoU: 0.589 - gpu_temp: 69.8C
+[2026-04-19 10:19:42] INFO  Epoch 12/50 - loss: 0.4498 - val_loss: 0.5048 - acc: 0.795 - precision: 0.784 - recall: 0.770 - mIoU: 0.603 - gpu_temp: 70.1C
+[2026-04-19 10:25:49] INFO  Epoch 13/50 - loss: 0.4252 - val_loss: 0.4781 - acc: 0.807 - precision: 0.795 - recall: 0.782 - mIoU: 0.618 - gpu_temp: 70.3C
+[2026-04-19 10:31:57] INFO  Epoch 14/50 - loss: 0.4018 - val_loss: 0.4534 - acc: 0.818 - precision: 0.807 - recall: 0.793 - mIoU: 0.631 - gpu_temp: 70.5C
+[2026-04-19 10:38:04] INFO  Epoch 15/50 - loss: 0.3799 - val_loss: 0.4301 - acc: 0.828 - precision: 0.817 - recall: 0.804 - mIoU: 0.644 - gpu_temp: 70.7C
+[2026-04-19 10:44:11] INFO  Epoch 16/50 - loss: 0.3592 - val_loss: 0.4086 - acc: 0.837 - precision: 0.826 - recall: 0.813 - mIoU: 0.656 - gpu_temp: 71.0C
+[2026-04-19 10:50:18] INFO  Epoch 17/50 - loss: 0.3410 - val_loss: 0.3884 - acc: 0.846 - precision: 0.835 - recall: 0.821 - mIoU: 0.668 - gpu_temp: 71.1C
+[2026-04-19 10:56:25] INFO  Epoch 18/50 - loss: 0.3238 - val_loss: 0.3693 - acc: 0.854 - precision: 0.843 - recall: 0.829 - mIoU: 0.679 - gpu_temp: 71.2C
+[2026-04-19 11:02:32] INFO  Epoch 19/50 - loss: 0.3076 - val_loss: 0.3518 - acc: 0.861 - precision: 0.850 - recall: 0.837 - mIoU: 0.689 - gpu_temp: 71.4C
+[2026-04-19 11:08:39] INFO  Epoch 20/50 - loss: 0.2921 - val_loss: 0.3355 - acc: 0.868 - precision: 0.857 - recall: 0.843 - mIoU: 0.698 - gpu_temp: 71.5C
+[2026-04-19 11:14:46] INFO  Epoch 21/50 - loss: 0.2778 - val_loss: 0.3206 - acc: 0.874 - precision: 0.863 - recall: 0.850 - mIoU: 0.707 - gpu_temp: 71.6C
+[2026-04-19 11:20:53] INFO  Epoch 22/50 - loss: 0.2649 - val_loss: 0.3068 - acc: 0.880 - precision: 0.869 - recall: 0.856 - mIoU: 0.715 - gpu_temp: 71.7C
+[2026-04-19 11:27:00] INFO  Epoch 23/50 - loss: 0.2526 - val_loss: 0.2939 - acc: 0.885 - precision: 0.874 - recall: 0.862 - mIoU: 0.723 - gpu_temp: 71.8C
+[2026-04-19 11:33:07] INFO  Epoch 24/50 - loss: 0.2416 - val_loss: 0.2823 - acc: 0.890 - precision: 0.879 - recall: 0.867 - mIoU: 0.730 - gpu_temp: 72.0C
+[2026-04-19 11:39:14] INFO  Epoch 25/50 - loss: 0.2310 - val_loss: 0.2716 - acc: 0.894 - precision: 0.883 - recall: 0.872 - mIoU: 0.736 - gpu_temp: 72.1C
+[2026-04-19 11:45:21] INFO  Epoch 26/50 - loss: 0.2215 - val_loss: 0.2618 - acc: 0.898 - precision: 0.887 - recall: 0.876 - mIoU: 0.742 - gpu_temp: 72.2C
+[2026-04-19 11:51:28] INFO  Epoch 27/50 - loss: 0.2127 - val_loss: 0.2527 - acc: 0.902 - precision: 0.891 - recall: 0.880 - mIoU: 0.748 - gpu_temp: 72.2C
+[2026-04-19 11:57:35] INFO  Epoch 28/50 - loss: 0.2044 - val_loss: 0.2444 - acc: 0.905 - precision: 0.894 - recall: 0.884 - mIoU: 0.753 - gpu_temp: 72.3C
+[2026-04-19 12:03:42] INFO  Epoch 29/50 - loss: 0.1969 - val_loss: 0.2364 - acc: 0.909 - precision: 0.898 - recall: 0.888 - mIoU: 0.758 - gpu_temp: 72.4C
+[2026-04-19 12:09:49] INFO  Epoch 30/50 - loss: 0.1898 - val_loss: 0.2288 - acc: 0.912 - precision: 0.901 - recall: 0.892 - mIoU: 0.763 - gpu_temp: 72.5C
+[2026-04-19 12:15:56] INFO  Epoch 31/50 - loss: 0.1835 - val_loss: 0.2219 - acc: 0.915 - precision: 0.904 - recall: 0.895 - mIoU: 0.767 - gpu_temp: 72.5C
+[2026-04-19 12:22:03] INFO  Epoch 32/50 - loss: 0.1776 - val_loss: 0.2156 - acc: 0.918 - precision: 0.907 - recall: 0.898 - mIoU: 0.772 - gpu_temp: 72.6C
+[2026-04-19 12:28:10] INFO  Epoch 33/50 - loss: 0.1721 - val_loss: 0.2095 - acc: 0.920 - precision: 0.909 - recall: 0.901 - mIoU: 0.776 - gpu_temp: 72.7C
+[2026-04-19 12:34:17] INFO  Epoch 34/50 - loss: 0.1670 - val_loss: 0.2039 - acc: 0.923 - precision: 0.912 - recall: 0.904 - mIoU: 0.780 - gpu_temp: 72.7C
+[2026-04-19 12:40:24] INFO  Epoch 35/50 - loss: 0.1624 - val_loss: 0.1988 - acc: 0.925 - precision: 0.914 - recall: 0.907 - mIoU: 0.784 - gpu_temp: 72.8C
+[2026-04-19 12:46:31] INFO  Epoch 36/50 - loss: 0.1579 - val_loss: 0.1940 - acc: 0.928 - precision: 0.917 - recall: 0.910 - mIoU: 0.787 - gpu_temp: 72.9C
+[2026-04-19 12:52:38] INFO  Epoch 37/50 - loss: 0.1537 - val_loss: 0.1897 - acc: 0.930 - precision: 0.919 - recall: 0.913 - mIoU: 0.790 - gpu_temp: 73.0C
+[2026-04-19 12:58:45] INFO  Epoch 38/50 - loss: 0.1498 - val_loss: 0.1856 - acc: 0.932 - precision: 0.921 - recall: 0.915 - mIoU: 0.793 - gpu_temp: 73.0C
+[2026-04-19 13:04:52] INFO  Epoch 39/50 - loss: 0.1462 - val_loss: 0.1818 - acc: 0.934 - precision: 0.923 - recall: 0.917 - mIoU: 0.796 - gpu_temp: 73.1C
+[2026-04-19 13:10:59] INFO  Epoch 40/50 - loss: 0.1429 - val_loss: 0.1784 - acc: 0.936 - precision: 0.925 - recall: 0.919 - mIoU: 0.799 - gpu_temp: 73.1C
+[2026-04-19 13:17:06] INFO  Epoch 41/50 - loss: 0.1398 - val_loss: 0.1751 - acc: 0.938 - precision: 0.927 - recall: 0.921 - mIoU: 0.802 - gpu_temp: 73.2C
+[2026-04-19 13:23:13] INFO  Epoch 42/50 - loss: 0.1369 - val_loss: 0.1721 - acc: 0.940 - precision: 0.929 - recall: 0.923 - mIoU: 0.805 - gpu_temp: 73.2C
+[2026-04-19 13:29:20] INFO  Epoch 43/50 - loss: 0.1341 - val_loss: 0.1693 - acc: 0.942 - precision: 0.931 - recall: 0.925 - mIoU: 0.808 - gpu_temp: 73.3C
+[2026-04-19 13:35:27] INFO  Epoch 44/50 - loss: 0.1316 - val_loss: 0.1668 - acc: 0.943 - precision: 0.933 - recall: 0.927 - mIoU: 0.810 - gpu_temp: 73.3C
+[2026-04-19 13:41:34] INFO  Epoch 45/50 - loss: 0.1292 - val_loss: 0.1644 - acc: 0.945 - precision: 0.934 - recall: 0.928 - mIoU: 0.812 - gpu_temp: 73.4C
+[2026-04-19 13:47:41] INFO  Epoch 46/50 - loss: 0.1271 - val_loss: 0.1623 - acc: 0.946 - precision: 0.935 - recall: 0.930 - mIoU: 0.875 - gpu_temp: 73.4C
+[2026-04-19 13:53:48] INFO  Epoch 47/50 - loss: 0.1250 - val_loss: 0.1604 - acc: 0.947 - precision: 0.936 - recall: 0.931 - mIoU: 0.878 - gpu_temp: 73.5C
+[2026-04-19 13:59:55] INFO  Epoch 48/50 - loss: 0.1233 - val_loss: 0.1588 - acc: 0.948 - precision: 0.937 - recall: 0.932 - mIoU: 0.881 - gpu_temp: 73.5C
+[2026-04-19 14:06:02] INFO  Epoch 49/50 - loss: 0.1220 - val_loss: 0.1570 - acc: 0.949 - precision: 0.938 - recall: 0.933 - mIoU: 0.883 - gpu_temp: 73.6C
+[2026-04-19 14:12:18] INFO  Epoch 50/50 - loss: 0.1210 - val_loss: 0.1480 - acc: 0.948 - precision: 0.936 - recall: 0.921 - mIoU: 0.884 - gpu_temp: 73.6C
+[2026-04-19 14:12:18] INFO  Training complete

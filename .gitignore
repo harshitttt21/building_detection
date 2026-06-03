@@ -1,0 +1,13 @@
+venv/
+.venv/
+backend/venv/
+
+*.pth
+backend/model/checkpoints/
+
+dataset/
+
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/

@@ -1,0 +1,16 @@
+{
+  "demo_type": "synthetic_training_run",
+  "note": "This file contains mock values for presentation and UI demo purposes only.",
+  "model": "Segmentation-based building counter",
+  "architecture": "SAM vit_b",
+  "dataset_name": "Synthetic Satellite Buildings Set",
+  "num_images": 6000,
+  "epochs": 50,
+  "batch_size": 4,
+  "image_size": 1024,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "mixed_precision": true,
+  "seed": 42
+}
